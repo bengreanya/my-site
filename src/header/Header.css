@@ -1,10 +1,19 @@
 .header {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
   background: linear-gradient(#e66465, #9198e5);
   height: 15vh;
 }
 .links {
-  justify-items: start;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.link {
+  margin: 3px;
+}
+.hidden {
+  width: 20vw;
 }

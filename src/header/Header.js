@@ -6,12 +6,20 @@ export default function Header() {
   return (
     <div className="header">
       <div className="links">
-        <Link to="./reeds">Reeds</Link>
-        <Link to="./lessons">Lessons</Link>
+        <Link className="link" to="./reeds">
+          Reeds
+        </Link>
+        <Link className="link" to="./lessons">
+          Lessons
+        </Link>
+        <Link className="link" to="./about">
+          About
+        </Link>
       </div>
       <div className="title">
         <h1>Ben Greanya</h1>
       </div>
+      <div className="hidden"></div>
     </div>
   );
 }
