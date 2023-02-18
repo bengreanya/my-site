@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#e66465, #9198e5);
+  height: 15vh;
+}
