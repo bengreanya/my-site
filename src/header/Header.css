@@ -1,7 +1,10 @@
 .header {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
   background: linear-gradient(#e66465, #9198e5);
   height: 15vh;
+}
+.links {
+  justify-items: start;
 }
