@@ -2,18 +2,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#e6ae64, 60%, #a0a5e1);
   height: 15vh;
+  position: sticky;
 }
 .links {
   width: 20vw;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .link {
   margin: 3px;
 }
+
 .hidden {
   width: 20vw;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #dbc3a3;
 }
