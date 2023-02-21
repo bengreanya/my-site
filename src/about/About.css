@@ -5,13 +5,12 @@
   justify-content: center;
   background-color: #a0a5e1;
   height: 85vh;
-  padding: 10px;
 }
 #standing-photo {
-  margin-top: 10vh;
+  margin-top: 25vh;
   height: 50vh;
 }
 .bio {
-  width: 100vw;
+  width: 90vw;
   height: 65vh;
 }

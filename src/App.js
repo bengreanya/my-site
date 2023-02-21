@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './header/Header.js';
 import { Redirect, Route, Switch } from 'react-router-dom';

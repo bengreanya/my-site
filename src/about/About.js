@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import img from '../standing.jpg';
+import img from '../standing-square.jpg';
 
 export default function About() {
   return (
