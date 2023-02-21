@@ -1,7 +1,17 @@
-.lessons {
+.about {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #a0a5e1;
   height: 85vh;
+  padding: 10px;
+}
+#dark-photo {
+  margin-top: 10vh;
+  height: 40vh;
+}
+.bio {
+  width: 100vw;
+  height: 65vh;
 }

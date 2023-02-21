@@ -15,6 +15,9 @@ export default function Header() {
         <Link className="link" to="./about">
           About
         </Link>
+        <Link className="link" to="./main">
+          Home
+        </Link>
       </div>
       <div className="title">
         <h1>Ben Greanya</h1>
