@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
-import img from '../resize.jpeg';
+import img from '../standing.jpg';
 
 export default function About() {
   return (
     <div className="about">
-      <img id="tree-photo" src={img} alt="picture of me in front of a tree" />
+      <img id="standing-photo" src={img} alt="picture of me in standing in a suit" />
       <p className="bio">
         Ben Greanya joined the Eugene Symphony as Principal Bassoon in 2020. Before moving to the
         Pacific Northwest he lived in Maryland, where he met his wife, Dana Rokosny. Ben enjoyed a

@@ -1,7 +1,11 @@
 .main {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #a0a5e1;
+  justify-content: space-around;
+  background: linear-gradient(#a0a5e1, 90%, #6f78dd);
   height: 85vh;
+}
+
+.photo {
+  width: 30vw;
 }

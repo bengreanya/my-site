@@ -1,10 +1,10 @@
 import './Lessons.css';
 import React from 'react';
-import img from '../dark.jpg';
+import img from '../tree.jpeg';
 export default function Lessons() {
   return (
     <div className="lessons">
-      <img id="dark-photo" src={img} alt="picture of me in front of a window" />
+      <img id="tree-photo" src={img} alt="picture of me in front of a tree" />
       <p>
         I have been playing the bassoon professionally for over 20 years. Sharing the things I have
         learned is one of the great joys I have found in music and in life. My emphasis in teaching
