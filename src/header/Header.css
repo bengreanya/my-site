@@ -5,6 +5,7 @@
   background: linear-gradient(#e6ae64, 60%, #a0a5e1);
   height: 15vh;
   position: sticky;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .links {
   width: 20vw;
@@ -18,6 +19,9 @@
 
 .hidden {
   width: 20vw;
+}
+a {
+  color: #150043;
 }
 a:link {
   text-decoration: none;
